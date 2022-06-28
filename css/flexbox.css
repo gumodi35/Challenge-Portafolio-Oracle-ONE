@@ -7,3 +7,8 @@
 .headerPrincipal-nav {
 	display: flex;
 }
+
+.presentacion {
+	display: flex;
+	border: solid black;
+}

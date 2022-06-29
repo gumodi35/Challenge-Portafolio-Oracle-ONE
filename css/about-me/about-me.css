@@ -1,0 +1,32 @@
+.about__me {
+    width: 100%;
+    height: 100vh;
+}
+
+.about__me__content{
+    border: transparent; 
+    /* margin-left: 80px;
+    margin-right: 80px; */
+}
+
+.about__me__content h2{
+    color: #0a0a0a;
+    padding: 15px;
+    font-size: 2.5rem;
+    margin-top: 0px;
+}
+
+.about__me__content p{
+    color:#eed9d9;
+    font-size: 1.5rem;
+    text-align: justify;
+    /* line-height: 25px; */
+    padding: 15px;
+    padding-right: 500px;
+    word-spacing: 3px;
+}
+
+.about__me__content a{
+    color: #051825;
+    text-decoration: none;
+}

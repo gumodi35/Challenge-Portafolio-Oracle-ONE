@@ -1,0 +1,25 @@
+.headerPrincipal .container{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerPrincipal_nav{
+    display: flex;
+}
+
+.nav__link{
+    color: white;
+    display: block;
+    font-family: Open Sans,'sans-serif';
+    font-size: 20px;
+    padding: 20px;
+    text-decoration: none;
+    transition: 0.7s;
+}
+
+.nav__link:hover{
+    background-color: white;
+    border-radius: 5%;
+    color: #11404b;
+}

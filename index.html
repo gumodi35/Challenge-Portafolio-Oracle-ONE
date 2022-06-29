@@ -9,57 +9,71 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,700&display=swap"
         rel="stylesheet">
+    <script src="https://kit.fontawesome.com/02a1b0e1a6.js" crossorigin="anonymous"></script>
     <title>Gualberto | Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/flexbox.css">
+    <link rel="stylesheet" href="css/header/header.css">
+    <link rel="stylesheet" href="css/presentacion/presentacion.css">
+    <link rel="stylesheet" href="css/about-me/about-me.css">
 </head>
 
 <body>
-    
+    <!-- HEADER -->
+    <header class="headerPrincipal">
+        <div class="container">
+            <a href="https://gumodi35.github.io/my_launchx_blog/"><img class="logo" src="img/Logo2.png"
+                    alt="Logo_GMD"></a>
+
+            <nav class="headerPrincipal_nav">
+                <a href="" class="nav__link">Sobre mi</a>
+                <a href="" class="nav__link">Skills</a>
+                <a href="" class="nav__link">Hobbies</a>
+                <a href="" class="nav__link">Formacion</a>
+                <a href="" class="nav__link">Proyectos</a>
+                <a href="" class="nav__link">Contacto</a>
+
+            </nav>
+        </div>
+    </header>
     <!-- MAIN -->
     <main class="contenidoPrincipal">
         <section class="presentacion">
             <div class="datos_personales">
                 <div class="datos_personales__presentacion">
-                    <h2 class="dato_personales__titulo"> Soy Gualberto, mi pasion es la programacion y el desarrollo
+                    <h1> Soy Gualberto, mi pasion es el desarrollo
                         web.
-                    </h2>
-                    <p class="datos_personales__info">Soy tecnico en Informatica, he realizado bootcamps sobre
-                        desarrollo web, aprendiendo tecnologias tanto de front end y back end, me enfoco en ser
-                        desarrollador Full stack</p>
-                        <ul class="datos_personales__contactos">
-                            <li class="datos_personales__contacto">
-                                <a href="https://github.com/gumodi35" class="datos_personales_link">
-                                    <div class="datos_personales__icono--github"></div>
-                                </a>
-                            </li>
-                            <li class="datos_personales__contacto">
-                                <a href="https://www.linkedin.com/in/gualbertomondi/" class="datos_personales__link">
-                                    <div class="datos_personales__icono--linked"></div>
-                                </a>
-                            </li>
-                            <li class="datos_personales__contacto">
-                                <a href="https://www.instagram.com/gualbertmonti/" class="datos_personales__link">
-                                    <div class="datos_personales_icono--instagram"></div>
-                                </a>
-                            </li>
-                            <li class="datos_personales__contacto">
-                                <a href="mailto:gumodi10@gmail.com" class="datos_personales__link">
-                                    <div class="datos_personales_icono--correo"></div>
-                                </a>
-                            </li>
-                            <li class="datos_personales_contacto">
-                                <a href="" class="datos_personales__link">
-                                    <div class="datos_personales__icono--curriculum"></div>
-                                </a>
-                            </li>
-                        </ul>
+                    </h1>
+                    <p>Soy tecnico en Informatica, me interesa el mundo de la tecnologia, desarrollo web, blockchain, ciberseguridad, inteligencia artificial, informatica en la nube, machine learning y ciencia de datos, busco desarrollarme en front end, back end o como full stack.</p>
+                    <div class="content__buttons">
+                        <a href="https://github.com/gumodi35" target="_blank"><button
+                                class="content__buttons___btn">GitHub</button></a>
+                        <a href="https://www.linkedin.com/in/gualbertomondi/" target="_blank"><button
+                                class="content__buttons___btn">LinkedIn</button></a>
+                        <a href="https://www.instagram.com/gualbertmonti/" target="_blank"><button
+                                class="content__buttons___btn">Instagram</button></a>
+                        <a href="mailto:gumodi10@gmail.com" target="_blank"><button
+                                class="content__buttons___btn">Email</button></a>
+                        <a href="" target="_blank"><button class="content__buttons___btn">Curriculo</button></a>
+                    </div>
                 </div>
-                <img src="img/profile1.jpeg" alt="" class="datos_personales__foto">
+            </div>
+            <div class="image">
+                <div class="img__wrapper">
+                    <img src="img/profile1-preview-removebg-preview.png" alt="" class="datos_personales__foto">
+                </div>
             </div>
         </section>
 
+        <section class="about__me" id="about__me">
+            <div class="about__me__content">
+                <h2>Sobre Mi</h2>
+                <p>
+                    Soy una persona que se encuentra en el camino de la tecnologia,
+                    desarrollando aplicaciones web y sumando conocimientos a mi stack de tecnologia. Participe en <a href="https://www.soyhenry.com/">Henry Bootcamp</a>, <a href="https://launchx.rocks/">Launch X</a> Microsoft partneer, curso el programa de formacion Oracle One Education en <a href="https://www.oracle.com/mx/education/oracle-next-education/">Alura Latam</a> y estoy por certificarme en <a href="https://docs.microsoft.com/en-us/learn/certifications/azure-fundamentals/">AZ-900 de Azure</a>, ademas de realizar diversos cursos de formacion en plataformas Online. Busco mi primer oportunidad, para entrar en el mundo de la tecnologia.
+                </p>
+            </div>
+        </section>
     </main>
 </body>
 

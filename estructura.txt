@@ -1,0 +1,7 @@
+*----------HEADER-----------*
+Logo  sobre mi Skills Hobbies Formacion Proyectos contacto
+
+IMG       a      a      a         a        a         a
+
+ancho --> 100 %
+alto -->  Logo

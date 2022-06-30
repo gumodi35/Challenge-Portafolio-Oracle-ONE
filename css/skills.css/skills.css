@@ -43,7 +43,7 @@
 .skill__cards img {
     /* filter: invert(97%) sepia(77%) saturate(7490%) hue-rotate(338deg) brightness(96%) contrast(109%); */
     border: solid black;
-    background-color: white;
+    background-color: #faf2f2;
     border-radius: 10px;
     height: 250px;
     margin-top: 20px;

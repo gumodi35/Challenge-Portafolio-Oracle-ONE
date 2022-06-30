@@ -49,6 +49,7 @@
     margin-top: 20px;
     width: 250px;
     scale: .8;
+    box-shadow: 2px 2px 5px #bcc6d6;
 }
 
 .skill__cards img:hover {

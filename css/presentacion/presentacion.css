@@ -3,6 +3,7 @@
     display: flex;
     height: auto;
     margin-top: 20px;
+    width: 100%;
 }
 
 .datos_personales {

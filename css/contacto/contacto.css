@@ -1,8 +1,10 @@
 .contact {
     /* border: solid red; */
+    background-color: #dedee4;
     display: flex;
     height: 100vh;
     justify-content: center;
+    width: 100%;
 }
 .contact__container{
     /* border: solid white; */
@@ -24,7 +26,12 @@
     padding: 10px;
 }
 .contact__input h3 {
-    color: #ffffff;
+    color: #0d2b5c;
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: center;
+    margin-top: 40px;
+    text-align: center;
 }
 .contact__input input {
     border: solid 1px #0c0b0b;

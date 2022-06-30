@@ -1,13 +1,20 @@
 #proyectos {
     /* border: solid red; */
+    /* background-color: #020731; */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 98%;
+    width: 100%;
 }
 
-.proyecto h2 {
-    text-align: center;
+#proyectos h2 {
+    align-items: center;
+    color: #bcc6d6;
+    display: flex;
+    font-size: 2.5rem;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 10px;
 }
 
 .proyecto img {

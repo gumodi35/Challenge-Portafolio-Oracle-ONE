@@ -1,7 +1,9 @@
 .headerPrincipal .container{
     align-items: center;
+    background-color: #020731;
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 
 .headerPrincipal_nav{
@@ -13,7 +15,7 @@
     display: block;
     font-family: Open Sans,'sans-serif';
     font-size: 20px;
-    padding: 20px;
+    padding: 10px;
     text-decoration: none;
     transition: 0.7s;
 }

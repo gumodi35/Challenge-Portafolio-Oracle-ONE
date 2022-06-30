@@ -1,10 +1,11 @@
 .skills {
     /* border: solid red; */
+    background-color: #020731;
     height: auto;
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
     grid-template-rows: 100%;
-    width: 98%
+    width: 100%
 }
 #skills__hobbies h2{
     align-items: center;
@@ -29,7 +30,7 @@
 }
 .skill_cards{
     align-items: center;
-    /* background-color: white;   */
+    /* background-color: white;
     /* background: -webkit-linear-gradient(to right, #414345, #232526); 
     background: linear-gradient(to right, #414345, #232526);  */
     border: 0.5px solid rgb(216, 14, 14);

@@ -18,7 +18,7 @@
 }
 
 .proyecto_buttons {
-    /* border: solid white; */
+    /* border: solid white;  */
     display: flex;
     display: flex;
     justify-content: space-around;
@@ -31,7 +31,8 @@
 
 .code {
     background-color: #2113f1;
-    border: none;
+    border-radius: 10px;
+    border: solid whitesmoke;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -42,7 +43,8 @@
 
 .demo {
     background-color: #2113f1;
-    border: none;
+    border-radius: 10px;
+    border: solid whitesmoke;
     color: white;
     padding: 15px 32px;
     text-align: center;

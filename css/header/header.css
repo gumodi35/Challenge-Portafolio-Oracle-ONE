@@ -25,3 +25,12 @@
     border-radius: 5%;
     color: #11404b;
 }
+
+@media screen and (max-width: 428px){
+    .container{
+        flex-direction: column;
+    }
+    .nav__link{
+        font-size: 12px;
+    }
+}

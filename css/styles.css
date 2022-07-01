@@ -46,3 +46,13 @@ body {
     border-radius: 50%;
     padding: 5px;
 }
+
+@media screen and (max-width: 428px) {
+    .scroll__button{
+        display: none;
+    }
+
+    .logo{
+        scale: .50;
+    }
+}

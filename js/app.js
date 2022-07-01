@@ -32,3 +32,9 @@ const emailValido = email => {
 }
 
 enviar.addEventListener('click', validate);
+
+// funcion datos enviados
+
+function myFun(){
+    alert("Datos enviados");
+}

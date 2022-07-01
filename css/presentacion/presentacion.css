@@ -87,3 +87,40 @@
         transform: rotate(360deg);
     }
 }
+
+@media screen and (max-width: 428px) {
+    .image{
+        display: none;
+    }
+    .img__wrapper{
+        width: 120px;
+        justify-content: center;
+    }
+    .img__wrapper img {
+        margin-top: 20px;
+    }
+
+    .img__wrapper::before {
+        display: none;
+    }
+
+    .datos_personales{
+        display: flex;
+        width: 100%;
+        scale: .80;
+    }
+    .datos_personales__presentacion h1{
+        font-size: 2rem;
+        text-align: justify;
+    }
+    .datos_personales__presentacion p{
+        font-size: 1.5rem;
+        text-align: justify;
+    }
+    .content__buttons{
+        display: flex;
+        justify-content: center;
+        scale: .80;
+    }
+}
+    

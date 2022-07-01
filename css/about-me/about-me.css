@@ -31,3 +31,17 @@
     color: #051825;
     text-decoration: none;
 }
+
+@media screen and (max-width: 428px) {
+    .about__me__content{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .about__me__content h2{
+        font-size: 2rem;
+    }
+    .about__me__content p{
+        font-size: 1.2rem;
+        text-align: justify;
+    }
+}

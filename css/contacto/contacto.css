@@ -70,3 +70,27 @@
     transform: scale(1.1);
     transition: all 0.3s ease-in-out;
 }
+
+@media screen and (max-width: 428px){
+    .contact__container {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+    .contact__container img {
+        margin: 0;
+        width: 100%;
+    }
+    .contact__input {
+        margin: 0;
+    }
+    .contact__input h3 {
+        margin-top: 0;
+    }
+    .contact__input input {
+        width: 100%;
+    }
+    .contact__input button{
+        width: 100%;
+    }
+}

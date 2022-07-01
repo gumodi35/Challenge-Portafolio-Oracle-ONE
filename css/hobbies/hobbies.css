@@ -56,3 +56,10 @@
     transform: scale(1.1);
     transition: all 0.5s ease-in-out;
 }
+
+@media screen and (max-width: 428px){
+    .hobbies {
+        display: flex;
+        flex-direction: column;
+    }
+}

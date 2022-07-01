@@ -7,19 +7,21 @@
     grid-template-rows: 100%;
     width: 100%
 }
-#skills__hobbies h2{
+
+#skills__hobbies h2 {
     align-items: center;
     /* border: solid red; */
     /* border: solid white;
     background-color: white; */
-    color:  #bcc6d6;
+    color: #bcc6d6;
     display: flex;
     font-size: 2.5rem;
     justify-content: center;
     margin-top: 20px;
     padding: 10px;
 }
-#skills__hobbies h3{
+
+#skills__hobbies h3 {
     color: #bcc6d6;
     /* background-color: rgb(223, 19, 19); */
     display: flex;
@@ -28,7 +30,8 @@
     margin-top: 40px;
     text-align: center;
 }
-.skill_cards{
+
+.skill_cards {
     align-items: center;
     /* background-color: white;
     /* background: -webkit-linear-gradient(to right, #414345, #232526); 
@@ -41,6 +44,7 @@
     margin: 10px;
     margin-top: 20px;
 }
+
 .skill__cards img {
     /* filter: invert(97%) sepia(77%) saturate(7490%) hue-rotate(338deg) brightness(96%) contrast(109%); */
     border: solid black;
@@ -56,4 +60,34 @@
 .skill__cards img:hover {
     transform: scale(1.1);
     transition: all 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 428px) {
+    .skills {
+        display: flex;
+        /* grid-template-columns: 50%;
+        grid-template-rows: 100%; */
+        flex-direction: column;
+    }
+
+    #skills__hobbies h2 {
+        display: block;
+    }
+
+    #skills__hobbies h3 {
+        display: none;
+    }
+    .skill_cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .skill__cards img{
+        /* border: solid red; */
+        background-color: white;
+        display: inline;
+        height: 180px;
+        width: 180px;
+        justify-content: center;
+    }
 }

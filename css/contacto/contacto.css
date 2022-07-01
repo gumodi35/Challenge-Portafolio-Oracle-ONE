@@ -94,3 +94,14 @@
         width: 100%;
     }
 }
+
+@media screen and (max-width: 810px){
+    
+    .contacto{
+        height: 50vh;
+    }
+    .contact__container img{
+        width: 80%;
+    }
+
+}

@@ -123,4 +123,15 @@
         scale: .80;
     }
 }
-    
+
+@media screen and (max-width: 810px) {
+    .datos_personales__presentacion h1{
+        font-size: 2rem;
+        text-align: justify;
+    }
+    .content__buttons{
+        display: flex;
+        justify-content: center;
+        scale: .80;
+    }
+}

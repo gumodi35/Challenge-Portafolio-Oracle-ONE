@@ -91,3 +91,10 @@
         justify-content: center;
     }
 }
+
+@media screen and (max-width: 810px){
+    .skill__cards img{
+        height: 150px;
+        width: 150px;
+    }
+}
